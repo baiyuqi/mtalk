@@ -1,0 +1,49 @@
+body {font:12px Tahoma;margin:0px;text-align:center;background:#FFF;}
+a:link,a:visited {font-size:12px;text-decoration:none;}
+a:hover{}
+#container {width:800px;margin:10px auto}
+
+#header {background:url(logo.gif) no-repeat}
+
+
+#menu ul li {float:left;margin:0 10px;display:block;line-height:28px}
+
+.menuDiv {width:1px;height:28px;background:#999}
+
+#banner {
+ 
+ width:730px; /*设定层的宽度*/
+ margin:auto; /*层居中*/
+ height:50px; /*设定高度*/
+ border-bottom:5px solid #EFEFEF; /*画一条浅灰色实线*/
+ clear:both /*清除浮动*/
+}
+#devicedefination {
+ 
+ width:300px; /*设定层的宽度*/
+
+ height:100px; /*设定高度*/
+
+}
+#pagebody {
+ width:730px; /*设定宽度*/
+ margin:8px auto; /*居中*/
+}
+#sidebar {
+border:1px solid #E00;
+height:500px;
+ width:160px; /*设定宽度*/
+ text-align:left; /*文字左对齐*/
+ float:left; /*浮动居左*/
+ clear:left; /*不允许左侧存在浮动*/
+ overflow:hidden; /*超出宽度部分隐藏*/
+}
+#mainbody {
+border:1px solid #E00;
+height:500px;
+ width:570px;
+ text-align:left;
+ float:right; /*浮动居右*/
+ clear:right; /*不允许右侧存在浮动*/
+ overflow:hidden
+}

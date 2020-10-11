@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AssistanceActivity!</string>
+    <string name="app_name">互助精灵</string>
+
+<string name="servicestarted">互助精灵已启动</string>
+<string name="pressure_high">血压高</string>
+<string name="temperature_high">发烧</string>
+</resources>

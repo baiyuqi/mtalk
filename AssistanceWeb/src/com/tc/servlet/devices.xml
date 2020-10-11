@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<generalDevice id="18922222222" name="wrist" ownerId="18922222222" channel="[sip, sms]">
+  		<deviceComponents>
+      <deviceComponent localId="pressure" componentType="sensor_body_pressure"/>
+      <deviceComponent localId="pulse" componentType="sensor_body_pulse"/>
+      <deviceComponent localId="temperature" componentType="sensor_body_temperature"/>
+    </deviceComponents>
+	</generalDevice>
+	

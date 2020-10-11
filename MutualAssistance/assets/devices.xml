@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<devices>
+	<generalDevice id="18922222222" name="手腕测量" ownerId="18922222222" type="wristmeter" supportedChannel="[sip, sms]">
+  		<deviceComponents>
+  		<deviceComponent localId="pressure" componentType="sensor_body_pressure"/>
+  		<deviceComponent localId="pulse" componentType="sensor_body_pulse"/>
+  		<deviceComponent localId="temperature" componentType="sensor_body_temperature"/>
+  		</deviceComponents>
+	</generalDevice>
+	<generalDevice id="18911111111" name="电话" ownerId="18922222222" type="phone" supportedChannel="[sip, sms]">
+		<deviceComponents>
+  		<deviceComponent localId="phone" componentType="phone"/>
+  		</deviceComponents>
+	</generalDevice>
+	<generalDevice id="18900000000" name="家居" ownerId="18922222222" supportedChannel="[sip, sms]">
+		<deviceComponents>
+  		<deviceComponent localId="phone" componentType="phone"/>
+  		</deviceComponents>
+	</generalDevice>
+</devices>

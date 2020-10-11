@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+    <package name="application" namespace="/application" extends="struts-default">
+
+        
+        <action name="Login_*" method="{1}" class="com.tc.action.Login">
+            <result name="input">/application/Login.jsp</result>
+            <result name="success">/application/index.jsp</result>
+        </action>
+        <action name="Register_*"  method="{1}" class="com.tc.action.Register">
+            <result name="input">/application/Register.jsp</result>
+            <result type="redirectAction">Login</result>
+        </action>
+
+  		<action name="DeviceAction_*" method="{1}" class="com.tc.action.DeviceAction">
+  			<interceptor-ref name="paramsPrepareParamsStack"/>
+  			<result name="add">${destination}Add.jsp</result>
+  			<result name="edit">${destination}Edit.jsp</result>  
+  			<result name="editComponent">DeviceComponentEdit.jsp</result> 
+  			<result name="input">${destination}Edit.jsp</result>  
+  			<result name="list">${destination}List.jsp</result> 
+		</action> 
+		
+		
+		
+		<action name="DeviceRelationAction_*" method="{1}" class="com.tc.action.DeviceRelationAction">
+  			<interceptor-ref name="paramsPrepareParamsStack"/>
+  			<result name="add">RelationAdd.jsp</result>
+  			<result name="edit">RelationEdit.jsp</result>  
+  			<result name="success" type="redirectAction">DeviceAction_edit?id=${toId}</result> 
+		</action>  
+		 
+		<action name="DeviceControlAction_*" method="{1}" class="com.tc.action.DeviceControlAction">
+
+  			<result name="device">/application/device/${controlPage}.jsp</result>
+  			<result name="component">/application/component/${controlPage}.jsp</result>
+		</action>    
+		<action name="ControlTreeAction"  class="com.tc.action.ControlTreeAction">
+  			
+  			<result name="success">/application/ControlTree.jsp</result>
+  		</action>
+  		<action name="ManageTreeAction"  class="com.tc.action.ManageTreeAction">
+  			
+  			<result name="success">/application/ManageTree.jsp</result>
+  		</action>
+		<action name="*" class="com.tc.action.EnvironmentSupport">
+		
+            <result>/application/{1}.jsp</result>
+        </action>
+
+        <!-- Add actions here -->
+    </package>
+</struts>

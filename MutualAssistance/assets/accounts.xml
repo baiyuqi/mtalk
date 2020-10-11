@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<detailedRelation>
+<in>
+	<relationship fromId="13311509083" toId="18922222222" reverseName="哥哥"/>
+</in>
+<out>
+	<relationship fromId="18922222222"  toId="18911111111" name="妈妈"/>
+	<relationship fromId="18922222222"  toId="18900000000" name="家居控制"/>
+</out>
+</detailedRelation>

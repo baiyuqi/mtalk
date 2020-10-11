@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+<entry>
+    <string>generalDevice</string>
+    <generalDevice id="communication identifier" name="generalDevice" ownerId="owner identifier" supportedChannel="[sms,sip]">
+      <deviceComponents>
+      </deviceComponents>
+    </generalDevice>
+  </entry>
+  <entry>
+    <string>phone</string>
+    <generalDevice id="communication identifier" name="phone" ownerId="owner identifier" type="phone" supportedChannel="[sms,sip]">
+      <deviceComponents>
+          <deviceComponent localId="phone" name="phone" componentType="phone"/>
+      </deviceComponents>
+    </generalDevice>
+  </entry>
+  <entry>
+    <string>wristmeter</string>
+   <generalDevice id="communication identifier" name="wrist meter" ownerId="owner identifier" type="wristmeter" supportedChannel="[sms]">
+      <deviceComponents>
+ 		<deviceComponent localId="pressure" name="pressure" componentType="sensor_body_pressure"/>
+ 		<deviceComponent localId="pulse"  name="pulse" componentType="sensor_body_pulse"/>
+ 		<deviceComponent localId="temperature"  name="temperature" componentType="sensor_body_temperature"/>
+      </deviceComponents>
+      
+    </generalDevice>
+  </entry>
+</map>

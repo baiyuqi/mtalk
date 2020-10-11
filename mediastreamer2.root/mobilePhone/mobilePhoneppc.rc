@@ -1,0 +1,410 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\mobilePhoneppc.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "1 TYPELIB ""mobilePhone.tlb\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\mobilePhone.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MOBILEPHONE_DIALOG DIALOG  0, 0, 156, 233
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW | 0x80000000L
+CAPTION "mobilePhone"
+FONT 9, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SINGLEEXPAND | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,36,142,190
+    LTEXT           "静态",IDC_USERSTATE,24,6,125,10
+    CONTROL         135,IDC_STATIC,"Static",SS_BITMAP,7,6,11,11
+    LTEXT           "静态",IDC_SYSSTATE,7,21,142,10
+END
+
+IDD_DIGOPTION DIALOG  0, 0, 161, 162
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SIP设置"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,21,135,50,20
+    PUSHBUTTON      "取消",IDCANCEL,94,136,50,19
+    LTEXT           "域名",IDC_STATIC,15,64,23,8
+    LTEXT           "代理",IDC_STATIC,15,82,23,8
+    LTEXT           "端口",IDC_STATIC,15,100,23,8
+    LTEXT           "用户",IDC_STATIC,15,28,23,8
+    LTEXT           "口令",IDC_STATIC,15,46,23,8
+    EDITTEXT        IDC_EDIT1,44,25,88,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,44,43,88,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,44,79,88,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,44,61,88,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,44,97,88,12,ES_AUTOHSCROLL
+    LTEXT           "昵称",IDC_STATIC,15,10,23,8
+    EDITTEXT        IDC_EDIT6,44,7,88,12,ES_AUTOHSCROLL
+END
+
+IDD_POCKETPC_LOGIN DIALOG  0, 0, 156, 177
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话框"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT1,39,38,100,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,39,69,100,14,ES_AUTOHSCROLL
+    LTEXT           "用户名",IDC_STATIC,9,43,28,10
+    LTEXT           "密码",IDC_STATIC,9,73,22,10
+    COMBOBOX        IDC_COMBO1,39,99,99,68,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "网络",IDC_STATIC,9,103,28,12
+    CONTROL         140,IDC_STATIC,"Static",SS_BITMAP,43,12,80,19
+    PUSHBUTTON      "登录",IDC_BUTTON1,29,133,90,25
+END
+
+IDD_DIAlPANEL DIALOG  0, 0, 156, 178
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER | WS_SYSMENU
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "1",IDC_DIAL1,14,65,37,20
+    PUSHBUTTON      "2",IDC_DIAL2,56,65,37,20
+    PUSHBUTTON      "4",IDC_DIAL4,14,85,37,20
+    PUSHBUTTON      "3",IDC_DIAL3,100,65,37,20
+    PUSHBUTTON      "5",IDC_DIAL5,56,85,37,20
+    PUSHBUTTON      "6",IDC_DIAL6,100,85,37,20
+    PUSHBUTTON      "7",IDC_DIAL7,14,105,37,20
+    PUSHBUTTON      "8",IDC_DIAL8,56,105,37,20
+    PUSHBUTTON      "9",IDC_DIAL9,100,105,37,20
+    PUSHBUTTON      "*",IDC_DIAL10,14,125,37,20
+    PUSHBUTTON      "0",IDC_DIAL0,56,125,37,20
+    PUSHBUTTON      "#",IDC_DIAL12,100,125,37,20
+    PUSHBUTTON      "视频通话",IDC_BTNVIDEO,1,153,48,24
+    PUSHBUTTON      "通话",IDC_BTNAUDIO,50,153,54,24
+    EDITTEXT        IDC_PHONENUMBER,1,3,154,26,ES_AUTOHSCROLL
+    PUSHBUTTON      "联系人",IDC_BNTFIND,107,31,49,15
+    PUSHBUTTON      "<-----",IDC_BTNDEL,108,153,48,24
+    PUSHBUTTON      "挂断",IDC_HANGUP,89,88,66,24,NOT WS_VISIBLE
+    PUSHBUTTON      "接听",IDC_ANSWER,1,88,66,24
+END
+
+IDD_MOBILEPHONE_DIALOG_WIDE DIALOG  0, 0, 210, 129
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话框"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "TODO: 添加您的控件",IDC_STATIC,64,57,82,8
+END
+
+IDD_POCKETPC_VIDEO DIALOG  0, 0, 155, 200
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "",IDC_VIDEOTEL,0,0,154,126,0,WS_EX_CLIENTEDGE
+    LTEXT           "静态",IDC_TELSTATE,6,157,143,14
+    PUSHBUTTON      "挂断",IDC_HANGUP,10,175,58,19
+END
+
+IDD_POCKETPC_PLAYER DIALOG  0, 0, 156, 178
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 9, "宋体"
+BEGIN
+END
+
+IDD_POCKETPC_GPS DIALOG  0, 0, 156, 218
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION
+CAPTION "GPS"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "当前时间：",IDC_STATIC,3,4,40,9
+    LTEXT           "静态",IDC_STATIME,40,1,112,11,WS_BORDER
+    LTEXT           "静态",IDC_STASATE,39,118,112,11,WS_BORDER
+    LTEXT           "静态",IDC_STALAT,39,132,112,11,WS_BORDER
+    LTEXT           "静态",IDC_STALNG,39,146,112,11,WS_BORDER
+    LTEXT           "静态",IDC_STAHEIGHT,39,160,112,11,WS_BORDER
+    LTEXT           "静态",IDC_STASPEED,39,174,112,11,WS_BORDER
+    LTEXT           "静态",IDC_STATIC,39,188,112,11,WS_BORDER
+    LTEXT           "卫星：",IDC_STATIC,8,120,30,9
+    LTEXT           "经度：",IDC_STATIC,8,134,30,9
+    LTEXT           "纬度：",IDC_STATIC,8,148,30,9
+    LTEXT           "海拔：",IDC_STATIC,8,162,30,9
+    LTEXT           "速度：",IDC_STATIC,8,176,30,9
+    LTEXT           "卫星：",IDC_STATIC,8,190,30,9
+    GROUPBOX        "",IDC_STATIC,4,16,149,99
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "mobilePhone.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "mobilePhone.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MOBILEPHONE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 149
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 226
+    END
+
+    IDD_DIGOPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 154
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_DIAlPANEL, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 177
+    END
+
+    IDD_POCKETPC_GPS, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 217
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "菜单"
+    BEGIN
+        MENUITEM "登录",                          ID_32808
+        MENUITEM "账户设置",                        ID_32809
+    END
+    MENUITEM "取消",                          ID_32784
+END
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "系统"
+    BEGIN
+        MENUITEM "登录",                          ID_32785
+        MENUITEM "注销",                          ID_32786
+        MENUITEM "退出",                          ID_32787
+        POPUP "设置"
+        BEGIN
+            MENUITEM "视频设置",                        ID_32792
+            MENUITEM "音频设置",                        ID_32793
+            MENUITEM "用户设置",                        ID_32794
+            MENUITEM "视频测试",                        ID_32801
+        END
+    END
+    POPUP "联系人"
+    BEGIN
+        MENUITEM "添加",                          ID_32788
+        MENUITEM "删除",                          ID_32789
+        MENUITEM "编辑",                          ID_32790
+    END
+    MENUITEM "拨号盘",                         IDD_DIAlPANEL
+    POPUP "操作"
+    BEGIN
+        MENUITEM "GPS信息",                       ID_32810
+        MENUITEM "播放视频",                        ID_32804
+    END
+END
+
+IDR_MENU3 MENU 
+BEGIN
+    MENUITEM "联系人",                         0
+    POPUP "菜单"
+    BEGIN
+        MENUITEM "返回",                          ID_32800
+        MENUITEM "联系人",                         ID_32795
+        MENUITEM "通话",                          ID_32796
+        MENUITEM "可视电话",                        ID_32797
+        MENUITEM "呼叫记录",                        ID_32798
+        MENUITEM "保存为联系人",                      ID_32799
+    END
+END
+
+IDR_MENU4 MENU 
+BEGIN
+    POPUP "菜单"
+    BEGIN
+        MENUITEM "返回",                          ID_32802
+        MENUITEM "设置",                          ID_32803
+    END
+END
+
+IDR_MAIN_MENUBAR MENU 
+BEGIN
+    POPUP "菜单"
+    BEGIN
+        MENUITEM "打开文件",                        ID_32805
+        MENUITEM "打开URL",                       ID_32806
+    END
+    MENUITEM "返回",                          ID_32807
+END
+
+IDR_MENUGPS MENU 
+BEGIN
+    MENUITEM "返回",                          ID_32814
+    POPUP "菜单"
+    BEGIN
+        MENUITEM "GPS设置",                       ID_32811
+        MENUITEM "发送位置信息",                      ID_32812
+        MENUITEM "求救",                          ID_32813
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "res\\online256.bmp"
+IDB_BITMAP2             BITMAP                  "res\\SmallIcon.bmp"
+IDB_BITMAP3             BITMAP                  "res\\LibFetion_Big.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_MOBILEPHONE         REGISTRY                "mobilePhone.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows 套接字初始化失败。"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\mobilePhoneppc.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+1 TYPELIB "mobilePhone.tlb"
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

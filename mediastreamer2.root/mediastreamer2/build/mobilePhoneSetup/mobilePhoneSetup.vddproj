@@ -1,0 +1,502 @@
+"DeployProject"
+{
+"VSVersion" = "3:701"
+"ProjectType" = "8:{AB322303-2255-48EF-A496-5904EB18DA55}"
+"IsWebType" = "8:FALSE"
+"ProjectName" = "8:mobilePhoneSetup"
+"LanguageId" = "3:2052"
+"CodePage" = "3:936"
+"SccProjectName" = "8:mediastreamer2.root/mediastreamer2"
+"SccLocalPath" = "8:..\\..\\.."
+"SccAuxPath" = "8:"
+"SccProvider" = "8:MSSCCI:PushOk CVSSCC"
+    "Hierarchy"
+    {
+        "Entry"
+        {
+        "MsmKey" = "8:_0D66640A91634A1BBC92E8B15EB81591"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1570E37CA38B4F8C91EAF05E832CC4B8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2E22E8F90260405792832539F933BF96"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3621D5A60C45444D9A5B2AB78988255D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_42C6F161CA8446D7BD31AEF384DDA5D5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7E55C175F77A4CD5A965338829B630A2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A2C1099D885A462FA82CFE90820C415B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B78E5225E2DB4B81A9B0F194A2E9CEED"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B9995B1BFE5D40F8B395C3B39C4C5528"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BCE451E07EDF4CB9AAC3241931F19721"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C5DB8C2F956C4696B71EEF642CDF2E18"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CF632E0425844DF79D9CB690569BDF3B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D78022958EAA4D48863C30E89AD0D422"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+    }
+    "Configurations"
+    {
+        "Debug"
+        {
+        "DisplayName" = "8:Debug"
+        "IsDebugOnly" = "11:TRUE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Debug\\mobilePhone.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+        "Release"
+        {
+        "DisplayName" = "8:Release"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:TRUE"
+        "OutputFilename" = "8:Release\\mobilePhoneSetup.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+    }
+    "Deployable"
+    {
+        "File"
+        {
+            "{BA458234-9B71-4F46-8107-E91156377184}:_0D66640A91634A1BBC92E8B15EB81591"
+            {
+            "SourcePath" = "8:C:\\osip\\celib\\dll\\msvcr90d.dll"
+            "TargetName" = "8:msvcr90d.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_3D91B7D59F6A46E6978225881F856CA9"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_1570E37CA38B4F8C91EAF05E832CC4B8"
+            {
+            "SourcePath" = "8:C:\\osip\\celib\\dll\\libgcc_s_sjlj-1.dll"
+            "TargetName" = "8:libgcc_s_sjlj-1.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_3D91B7D59F6A46E6978225881F856CA9"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_2E22E8F90260405792832539F933BF96"
+            {
+            "SourcePath" = "8:C:\\osip\\celib\\dll\\swscale-0.dll"
+            "TargetName" = "8:swscale-0.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_3D91B7D59F6A46E6978225881F856CA9"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_3621D5A60C45444D9A5B2AB78988255D"
+            {
+            "SourcePath" = "8:C:\\osip\\celib\\dll\\avfilter-0.dll"
+            "TargetName" = "8:avfilter-0.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_3D91B7D59F6A46E6978225881F856CA9"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_42C6F161CA8446D7BD31AEF384DDA5D5"
+            {
+            "SourcePath" = "8:C:\\osip\\celib\\dll\\avformat-52.dll"
+            "TargetName" = "8:avformat-52.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_3D91B7D59F6A46E6978225881F856CA9"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_7E55C175F77A4CD5A965338829B630A2"
+            {
+            "SourcePath" = "8:C:\\osip\\celib\\dll\\mediastreamer2.dll"
+            "TargetName" = "8:mediastreamer2.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_3D91B7D59F6A46E6978225881F856CA9"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_A2C1099D885A462FA82CFE90820C415B"
+            {
+            "SourcePath" = "8:C:\\osip\\celib\\dll\\ringback.wav"
+            "TargetName" = "8:ringback.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_3D91B7D59F6A46E6978225881F856CA9"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_B78E5225E2DB4B81A9B0F194A2E9CEED"
+            {
+            "SourcePath" = "8:C:\\osip\\celib\\dll\\avdevice-52.dll"
+            "TargetName" = "8:avdevice-52.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_3D91B7D59F6A46E6978225881F856CA9"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_B9995B1BFE5D40F8B395C3B39C4C5528"
+            {
+            "SourcePath" = "8:C:\\osip\\celib\\dll\\avutil-50.dll"
+            "TargetName" = "8:avutil-50.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_3D91B7D59F6A46E6978225881F856CA9"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_C5DB8C2F956C4696B71EEF642CDF2E18"
+            {
+            "SourcePath" = "8:C:\\osip\\celib\\dll\\oldphone.wav"
+            "TargetName" = "8:oldphone.wav"
+            "Tag" = "8:"
+            "Folder" = "8:_3D91B7D59F6A46E6978225881F856CA9"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_CF632E0425844DF79D9CB690569BDF3B"
+            {
+            "SourcePath" = "8:C:\\osip\\celib\\dll\\oRTP.dll"
+            "TargetName" = "8:oRTP.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_3D91B7D59F6A46E6978225881F856CA9"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D78022958EAA4D48863C30E89AD0D422"
+            {
+            "SourcePath" = "8:C:\\osip\\celib\\dll\\avcodec-52.dll"
+            "TargetName" = "8:avcodec-52.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_3D91B7D59F6A46E6978225881F856CA9"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+        }
+        "Folder"
+        {
+            "{D5B00AC1-E6C3-4CC5-90FF-8E0F53D9E5E0}:_3D91B7D59F6A46E6978225881F856CA9"
+            {
+            "DefaultLocation" = "8:%InstallDir%"
+            "Name" = "8:#1920"
+            "Condition" = "8:"
+            "Property" = "8:%InstallDir%"
+                "Folders"
+                {
+                }
+            }
+            "{F6DFDB62-1DD1-498B-89B7-27BAC542EE5A}:_57EBA08FD1DA4E7FA678578982D41832"
+            {
+            "Name" = "8:#1911"
+            "Condition" = "8:"
+            "Property" = "8:%CE1%"
+                "Folders"
+                {
+                }
+            }
+        }
+        "Product"
+        {
+        "Name" = "8:Microsoft Visual Studio"
+        "ProductName" = "8:mobilePhoneSetup"
+        "Manufacturer" = "8:tradebeam"
+        "OSVersionMin" = "8:4.0"
+        "OSVersionMax" = "8:6.99"
+        "NoUninstall" = "11:FALSE"
+        "Compress" = "11:FALSE"
+        "CESetupDLL" = "8:"
+        }
+        "ProjectOutput"
+        {
+            "{605BE39E-5046-48BD-AEC0-63C3A46626D5}:_BCE451E07EDF4CB9AAC3241931F19721"
+            {
+            "SourcePath" = "8:..\\..\\..\\mobilePhone\\Windows Mobile 6 Professional SDK (ARMV4I)\\Debug\\mobilePhone.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_57EBA08FD1DA4E7FA678578982D41832"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:0"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{F94DE62C-645D-45EC-9438-55E7F4D5DA0A}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+        }
+        "Registry"
+        {
+            "HKLM"
+            {
+                "Keys"
+                {
+                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_75D1028C56D04A7493024B4AC4E8E5B9"
+                    {
+                    "Name" = "8:SYSTEM"
+                    "Condition" = "8:"
+                        "Keys"
+                        {
+                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_07E35F0B66EC4D1682F3C624D92EC755"
+                            {
+                            "Name" = "8:LOADER"
+                            "Condition" = "8:"
+                                "Keys"
+                                {
+                                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_A0B63D69FBEA4959942D4BC3C60123FF"
+                                    {
+                                    "Name" = "8:loadmodulelow"
+                                    "Condition" = "8:"
+                                        "Keys"
+                                        {
+                                        }
+                                        "Values"
+                                        {
+                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_222BA8D47FC84D219DE9EA196448E8DF"
+                                            {
+                                            "Name" = "8:avcodec-52.dll"
+                                            "Condition" = "8:"
+                                            "ValueTypes" = "3:3"
+                                            "Value" = "3:1"
+                                            }
+                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_6B6C0ED4FD2F48AEB34FD1A189FBAC43"
+                                            {
+                                            "Name" = "8:avutil-50.dll"
+                                            "Condition" = "8:"
+                                            "ValueTypes" = "3:3"
+                                            "Value" = "3:1"
+                                            }
+                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_CB9DE52B560548859C5C1AF080C30A7E"
+                                            {
+                                            "Name" = "8:libgcc_s_sjlj-1.dll"
+                                            "Condition" = "8:"
+                                            "ValueTypes" = "3:3"
+                                            "Value" = "3:1"
+                                            }
+                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_F69AB341985043B98806E2021646EE73"
+                                            {
+                                            "Name" = "8:swscale-0.dll"
+                                            "Condition" = "8:"
+                                            "ValueTypes" = "3:3"
+                                            "Value" = "3:1"
+                                            }
+                                        }
+                                    }
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKCR"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKPU"
+            {
+                "Keys"
+                {
+                }
+            }
+        }
+        "Shortcut"
+        {
+        }
+    }
+}

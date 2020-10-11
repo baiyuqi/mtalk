@@ -1,0 +1,2 @@
+/D "_DEBUG" /D "_WIN32_WCE=0x501" /D "UNDER_CE" /D "WIN32_PLATFORM_PSPC" /char signed /env win32 /Oicf  /tlb "Windows Mobile 5.0 Pocket PC SDK (ARMV4I)\Debug/mobilePhone.tlb" /h "mobilePhone_i.h" /iid "mobilePhone_i.c"
+.\mobilePhone.idl

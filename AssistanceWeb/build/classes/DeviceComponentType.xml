@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+  <deviceComponentType typeId="sensor_body_temperature"  name="sensor_body_temperature" description="sensor_body_temperature"/>
+  <deviceComponentType typeId="sensor_body_pressure"  name="sensor_body_pressure" description="sensor_body_pressure"/>
+  <deviceComponentType typeId="sensor_body_pulse"  name="sensor_body_pulse" description="sensor_body_pulse"/>
+  <deviceComponentType typeId="phone"  name="phone" description="phone"/> 
+  <deviceComponentType typeId="television"  name="television" description="television"/> 
+  <deviceComponentType typeId="refrigerator"  name="refrigerator" description="refrigerator"/> 
+  <deviceComponentType typeId="switch"  name="switch" description="switch"/>
+  <deviceComponentType typeId="lock"  name="lock" description="lock"/>
+</list>

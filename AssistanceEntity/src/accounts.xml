@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accounts>
+	<caringAccount mobileId="13311509083" name="哥哥">
+	</caringAccount>
+	<caredAccount mobileId="13511025936" name="爸爸" deviceId="18922222222">
+	</caredAccount>
+	<homeDevice name="窗帘">
+	</homeDevice>
+</accounts>

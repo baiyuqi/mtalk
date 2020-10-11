@@ -1,0 +1,18 @@
+// mobilePhone.idl : mobilePhone 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(mobilePhone.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(C6FB275C-FE1E-4EFC-8237-A96D4B24343D),
+	version(1.0),
+	helpstring("mobilePhone 1.0 类型库")
+]
+library mobilePhoneLib
+{
+	importlib("stdole2.tlb");
+};
